@@ -4,26 +4,10 @@
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-        <g-link class="nav__link" to="/posts/">Posts</g-link>
-      </nav>
     </header>
     <slot/>
-    <!-- <LatestPosts/> -->
   </div>
 </template>
-
-<script>
-// import LatestPosts from '../components/LatestPosts.vue';
- 
-export default {
-  components: {
-    // LatestPosts
-  }
-};
-</script>
 
 <static-query>
 query {
@@ -50,7 +34,7 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin-bottom: 20px;
   height: 80px;
