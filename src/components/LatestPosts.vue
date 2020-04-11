@@ -2,12 +2,45 @@
   <section>
     <div>
       <h2>Latest posts</h2>
-      <article>
-          <h3>Post One</h3>
-          <p>With Gridsome offering a plugin-rich ecosystem, there are a few key plugins that make this project possible.</p>
-          <p class="lang-heb">קופים הוא שם עממי לאוסף מיני בעלי חיים מסדרת הפרימטים, אשר במובן המדעי כולל את תת-הסדרה קופים רחבי-אף ואת המשפחה קופים בעלי זנב, אך אינו כולל את קופי האדם ואת האדם עצמו, אף שהם קרובים לקופים.</p>
-          <a href="#">Read more</a>
+      <article v-for="edge in $static.allBlogPost.edges" :key="edge.node.id">
+          <!-- <div v-html=" edge.node.content"/> -->
+          <h2> {{edge.node.title}} </h2>
+          <p> {{edge.node.date}} </p>
+          <ul> 
+            <li v-for="tag in edge.node.tags"> {{tag}} </li>
+          </ul>
+          <g-link :to="`/posts/${edge.node.slug}`" >Read more</g-link>
       </article>
     </div>
   </section>
 </template>
+
+<static-query>
+  query LatestPosts {
+    allBlogPost{
+        edges{
+          node{
+            id
+            title
+            date (format:"MMM DD, YYYY")
+            tags
+            slug
+          }
+        }
+      }
+    } 
+</static-query>
+
+<style>
+article{
+  margin: 40px 0;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+li{
+  display: inline;
+}
+
+</style>

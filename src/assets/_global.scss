@@ -3,12 +3,14 @@
     src: url("../assets/fonts/Allotrope.ttf");
     font-weight: normal;
 }
-
-body {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    line-height: 1.5;
+}
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.25;
+    background-color: lavender;
 }
 .lang-heb{
     font-family: Allotrope;
