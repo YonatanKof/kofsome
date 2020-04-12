@@ -28,6 +28,15 @@ h1,
   margin-left: 20px;
 }
 
+.list__no-style ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list__no-style li {
+  display: inline;
+}
+
 .layout {
   max-width: 760px;
   margin: 0 auto;

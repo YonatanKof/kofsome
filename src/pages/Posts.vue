@@ -1,8 +1,8 @@
 <template>
-  <Other>
+  <layout>
     <h1>Posts</h1>
     <LatestPosts/>
-  </Other>
+  </layout>
 </template>
 
 <script>
