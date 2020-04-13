@@ -10,7 +10,7 @@
         <g-link class="nav__link" to="/posts/">Posts</g-link>
       </nav>
     </header>
-    <g-image v-if="bgImage" :src="bgImage"/>
+    <g-image class="main-cover" v-if="bgImage" :src="bgImage"/>
     <div class="layout">
       <slot/>
     </div>
@@ -33,10 +33,14 @@ query {
 
 <style scoped>
 .header{
-    align-items: center;
-    margin-bottom: 20px;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 760px;
+  margin: 20px auto;
+}
+.main-cover{
+  height: 400px;
+  object-fit: cover;
 }
 </style>

@@ -16,7 +16,7 @@
     date (format:"MMM DD, YYYY")
     tags
     content
-    image (height: 200)
+    image
   }
 }
 </page-query>

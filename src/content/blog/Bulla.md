@@ -1,8 +1,8 @@
 ---
-title: The First Creators
+title: Bulla
 date: 2019-01-26
 tags: ['kof', 'hate']
-slug: the-first-creators
+slug: bulla-the-queen
 image: ./images/bg-image-2.jpg
 ---
 ---
