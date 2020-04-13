@@ -10,9 +10,16 @@
         <g-link class="nav__link" to="/posts/">Posts</g-link>
       </nav>
     </header>
+    <g-image v-if="bgImage" :src="bgImage"/>
     <slot/>
   </div>
 </template>
+
+<script> 
+export default {
+  props: ["bgImage"]
+};
+</script>
 
 <static-query>
 query {

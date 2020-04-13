@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import LatestPosts from '../components/LatestPosts.vue';
+import LatestPosts from '~/components/LatestPosts.vue';
  
 export default {
   components: {

@@ -1,5 +1,5 @@
 <template>
-    <layout>
+    <layout :bgImage="$page.blogPost.image">
         <h1> {{$page.blogPost.title}} </h1>
         <p> {{$page.blogPost.date}} </p>
         <ul class="list__no-style"> 
@@ -16,6 +16,7 @@
     date (format:"MMM DD, YYYY")
     tags
     content
+    image (height: 200)
   }
 }
 </page-query>

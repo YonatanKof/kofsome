@@ -3,6 +3,8 @@ title: The First Creators
 date: 2019-01-26
 tags: ['kof', 'hate']
 slug: the-first-creators
+image: ./images/bg-image-2.jpg
+
 ---
 # The First Creators
 
@@ -32,17 +34,17 @@ The only truly creative species
 
 מתי יפה הפך להיות גדול, מוצלח או עדיף על תכונות אחרות.
 
-![https://www.thisiscolossal.com/wp-content/uploads/2012/09/mystery-5.jpg](https://www.thisiscolossal.com/wp-content/uploads/2012/09/mystery-5.jpg)
+![link1](https://www.thisiscolossal.com/wp-content/uploads/2012/09/mystery-5.jpg)
 
 קן חיזור של הדג הנפוחיתי
 
-![https://c1.staticflickr.com/5/4298/35952474802_9aa07f97a2_b.jpg](https://c1.staticflickr.com/5/4298/35952474802_9aa07f97a2_b.jpg)
+![link2](https://c1.staticflickr.com/5/4298/35952474802_9aa07f97a2_b.jpg)
 
 קן של סוכי צנוע
 
-![https://upload.wikimedia.org/wikipedia/commons/e/e6/Scientific_classification_he.png](https://upload.wikimedia.org/wikipedia/commons/e/e6/Scientific_classification_he.png)
+![link3](https://upload.wikimedia.org/wikipedia/commons/e/e6/Scientific_classification_he.png)
 
-![https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Biological_classification_L_Pengo_vflip.svg/460px-Biological_classification_L_Pengo_vflip.svg.png](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Biological_classification_L_Pengo_vflip.svg/460px-Biological_classification_L_Pengo_vflip.svg.png)
+![link4](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Biological_classification_L_Pengo_vflip.svg/460px-Biological_classification_L_Pengo_vflip.svg.png)
 
 עוד לפני היות האדם אדם, הקוף כבר ייצר כלים. ולא רק הקוף, לוטרות משתמשות בבאבנים ככלי לפיצוח צדפות וישנו [סוג של דג](https://en.wikipedia.org/wiki/Blackspot_tuskfish) מול חופי אוסטרליה שעושה בדיוק אותו הדבר (רק בחוסר יעילות מתסכל) ובטח עוד מיני חיות אחרות עליהם לעולם לא נדע שהשתמשו בכלים. בטוח שאדם טוב בזה במיוחד, למרות שהקוף לא רע בזה בכלל. לקוף איכויות אנושיות, אך אני חושב שיותר נכון לכתוב שהאדם הרחיב את אלו של הקוף, והוא בתמורה את אלו של כל החיות שהגיעו לפניו. קוף לפני בן אדם ואחרי כולם. אך זה לא המצב, לא היה רצף כזה של, מהאל או הקוף ← לבן האדם. באותה התקופה היו משפחות (במובן הטקסונומי) ונסיבות. מה שהסתדר הסתדר ומה שלא לא. 
 
@@ -116,13 +118,13 @@ The only truly creative species
 
 ערכו של כלי העוזר לפרט או לקבוצה מובן קלות. קופי האדם, הראשם השימפנזה, מבינים את זה טוב מאוד. להם יכולת `מחשבה מופשטת מהמעלה הראשונה`. המעלה השניה מדברת כבר על  - הערך שבפרח יפה, העוצמה של גרמי השמיים, כוחו של משל אותו זקנת השבט מספרת מול אש המדורה
 
-[https://lh3.googleusercontent.com/sGjO6imkQKyn79tcSnOBsVsONfDtQq_4pXOw6eDbhbfm4YIkpPyWHzgZp5X7CPVzaOeJhCGNV81ZB7kNd4HI70K2VC89bE1yYT3hccvWOJU1JIGI99eFhf1GeAh76Tual73f7KI](https://lh3.googleusercontent.com/sGjO6imkQKyn79tcSnOBsVsONfDtQq_4pXOw6eDbhbfm4YIkpPyWHzgZp5X7CPVzaOeJhCGNV81ZB7kNd4HI70K2VC89bE1yYT3hccvWOJU1JIGI99eFhf1GeAh76Tual73f7KI)
+[link5](https://lh3.googleusercontent.com/sGjO6imkQKyn79tcSnOBsVsONfDtQq_4pXOw6eDbhbfm4YIkpPyWHzgZp5X7CPVzaOeJhCGNV81ZB7kNd4HI70K2VC89bE1yYT3hccvWOJU1JIGI99eFhf1GeAh76Tual73f7KI)
 
 יציבות הוא המתמקצע בזה. אדם אחד ראה אחר עושה ועשה כמוהו, לפעמים עשה פחות טוב, לפעמים באותה המידה ויחידי יחידים עשו את זה טוב יותר. איזה עיצוב ראש חץ שרד את מבחן הזמן? ראש החץ הכי טוב. מהו ראש החץ הכי טוב? זה שמתפקד יותר טוב מקודמו. מה זה יותר טוב? במקרה של ראש החץ, זה עמידות, [פרופיל אווירודינמי](https://en.wikipedia.org/wiki/Airfoil), יכולת חיתוך, דיוק, קלות הייצור.
 
 אבל ראש חץ טוב יותר, לו יש ערך והעיצוב עבר. עבר משבט לשבט וסחף בני אדם רבים, מאזורים גדולים, במהירות שיא של אלפים שנים.
 
-[https://lh3.googleusercontent.com/G6selh343iwjJXRd0JUoRj2J4wEWtzoWhVDJjmSADJSQUFlKJ54J7folerzJU8ggGleshgbQvUSAcaqyzuedMLcwusoW01dhAY33NPlefaIr52-fVbTdbOX4cewlZUsZm1jhefs](https://lh3.googleusercontent.com/G6selh343iwjJXRd0JUoRj2J4wEWtzoWhVDJjmSADJSQUFlKJ54J7folerzJU8ggGleshgbQvUSAcaqyzuedMLcwusoW01dhAY33NPlefaIr52-fVbTdbOX4cewlZUsZm1jhefs)
+[link6](https://lh3.googleusercontent.com/G6selh343iwjJXRd0JUoRj2J4wEWtzoWhVDJjmSADJSQUFlKJ54J7folerzJU8ggGleshgbQvUSAcaqyzuedMLcwusoW01dhAY33NPlefaIr52-fVbTdbOX4cewlZUsZm1jhefs)
 
 מי הוא אותו אדם שעיצב ראש חץ לראשונה? מי הם האנשים שראו אותו ראש חץ וחשו צורך לשפר את העיצוב. אנשים אלו הם האמנים, ממש כמו בימנו אנו, רק נדירים הרבה יותר. אנשים הם אמנים בהם בוערת אש של יצירה, אש זו אינה מכוונת רק מאלטרואיזם או רצון לכוח אלא מהרצון ליצור, ליצור כמו האלים, ליצור כמו אישה - יש מאין. 
 אך יצירות אלא, אינן בין החיים אך יוצרות חיים משל עצמן.
@@ -169,7 +171,7 @@ The only truly creative species
 
 ציורי מערה, כלי אבן, ודברים יפים
 
-[https://youtu.be/HLfOtRcRYAQ?t=666](https://youtu.be/HLfOtRcRYAQ?t=666)
+[link7](https://youtu.be/HLfOtRcRYAQ?t=666)
 
 The natural order of substances
 

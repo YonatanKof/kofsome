@@ -1,5 +1,7 @@
+$page-width: 760px;
+
 .layout {
-    max-width: 760px;
+    max-width: $page-width;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
