@@ -1,5 +1,5 @@
 <template>
-  <div class="layout">
+  <div>
     <header class="header">
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
@@ -11,7 +11,9 @@
       </nav>
     </header>
     <g-image v-if="bgImage" :src="bgImage"/>
-    <slot/>
+    <div class="layout">
+      <slot/>
+    </div>
   </div>
 </template>
 

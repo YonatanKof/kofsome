@@ -1,8 +1,8 @@
 <template>
-  <layout>
+  <DefaultLayout>
     <h1>Posts</h1>
     <LatestPosts/>
-  </layout>
+  </DefaultLayout>
 </template>
 
 <script>
