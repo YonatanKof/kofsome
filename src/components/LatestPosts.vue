@@ -6,9 +6,9 @@
           <h2> {{edge.node.title}} </h2>
           <p> {{edge.node.date}} </p>
           <ul class="list__no-style"> 
-            <li v-for="tag in edge.node.tags" :key="tag"> {{tag}} </li>
+            <li v-for="tag in edge.node.tags" :key="tag">{{tag}}</li>
           </ul>
-          <g-link :to="`/posts/${edge.node.slug}`" >Read more</g-link>
+          <g-link :to="`/posts/${edge.node.slug}`">Read more</g-link>
       </article>
     </div>
   </section>

@@ -1,9 +1,10 @@
 ---
 title: Research
 date: 2020-04-11
-tags: ['kof', 'love', 'Research']
+tags: ['Kof', 'Love', 'Research']
 slug: research-me-that
 image: ./images/bg-image.jpg
+flip: false
 ---
 ---
 Research is a fundamental part of successfully understand what people need, and how it will fit into their lives. Research can also be used to asses how an existing item is serving people and uncover opportunities to provide new value. Research can inform business decisions about what should be built and design decisions along the way to ensure that both business and end user goals are met.
