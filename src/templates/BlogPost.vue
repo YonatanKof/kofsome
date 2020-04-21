@@ -1,6 +1,7 @@
 <template>
     <DefaultLayout :bgImage="$page.blogPost.image">
         <div id="kof" v-if="$page.blogPost.flip" dir="rtl">
+          <!-- BlogPostContent is in other component for direction while header is unchanged  -->
           <BlogPostContent/>
         </div>
         <div id="kof" v-else dir="ltr">        

@@ -10,9 +10,17 @@
         <g-link class="nav__link" to="/posts/">Posts</g-link>
       </nav>
     </header>
-    <g-image class="main-cover" v-if="bgImage" :src="bgImage"/>
+      <transition name="image-fade" appear>
+        <main>
+          <g-image class="main-cover" v-if="bgImage" :src="bgImage"/>
+        </main>
+      </transition>
     <div class="layout">
-      <slot/>
+      <transition name="fade" appear>
+        <main>
+          <slot/> 
+        </main>
+      </transition>
     </div>
   </div>
 </template>
@@ -31,7 +39,23 @@ query {
 }
 </static-query>
 
-<style scoped>
+<style>
+.image-fade-enter-active {
+  transition: all 1s ease;
+}
+
+.image-fade-enter {
+  transform: scale(1.02);
+  opacity: 0;
+}
+.fade-enter-active {
+  transition: opacity .5s;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
 .header{
   align-items: center;
   display: flex;
