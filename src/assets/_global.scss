@@ -1,40 +1,33 @@
-@import './layouts';
-
-@font-face {
-    font-family: Allotrope;
-    src: url("../assets/fonts/Allotrope.ttf");
-    font-weight: normal;
-}
 * {
     margin: 0;
     padding: 0;
 }
 body {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    line-height: 1.25;
-    background-color: lavender;
+    background-color: floralwhite;
 }
 img{
     max-width: 100%;
     height: auto;
 }
+
 .lang-heb{
     font-family: Allotrope;
 }
-h1,
-.nav__link {
-    color: navy;
-}
-.nav__link {
-    margin-left: 20px;
-}
+
 .list__no-style{
     ul{
         list-style: none;
-        padding: 0;
-      }
-      li{
+    }
+    li{
         display: inline;
+        padding-inline-end: 8px;
       }
       
 }
+hr {
+    margin: 16px 0;
+    border: 0;
+    height: 0.0625rem;
+    background-color: #1a1a1a;
+}
+

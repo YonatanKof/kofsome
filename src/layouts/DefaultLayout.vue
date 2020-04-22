@@ -40,6 +40,12 @@ query {
 </static-query>
 
 <style>
+.nav__link {
+    color: navy;
+}
+.nav__link {
+    margin-left: 20px;
+}
 .image-fade-enter-active {
   transition: all 1s ease;
 }
@@ -56,13 +62,7 @@ query {
   opacity: 0;
 }
 
-.header{
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  max-width: 760px;
-  margin: 20px auto;
-}
+
 .main-cover{
   height: 400px;
   object-fit: cover;
