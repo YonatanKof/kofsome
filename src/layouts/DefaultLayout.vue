@@ -11,9 +11,9 @@
       </nav>
     </header>
       <transition name="image-fade" appear>
-        <main>
+        <div class="image-box">
           <g-image class="main-cover" v-if="bgImage" :src="bgImage"/>
-        </main>
+        </div>
       </transition>
     <div class="layout">
       <transition name="fade" appear>
@@ -66,5 +66,8 @@ query {
 .main-cover{
   height: 400px;
   object-fit: cover;
+}
+.image-box{
+  max-height: 400px;
 }
 </style>
