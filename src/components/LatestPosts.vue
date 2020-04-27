@@ -12,11 +12,11 @@
                   <g-image :src="`~${edge.node.image.src}`"/>
                   <div class="title">
                     <h3>{{edge.node.title}}</h3>
+                    <p><strong>{{edge.node.excerpt}}</strong></p>
                     <p>{{edge.node.date}}</p>
                     <ul class="list__no-style">
-                        <li v-for="tag in edge.node.tags" :key="tag">{{tag}}</li>
+                        <li v-for="tag in edge.node.tags" :key="tag.id">{{tag}}</li>
                     </ul>
-                    <p><strong>{{edge.node.excerpt}}</strong></p>
                   </div>
                 </g-link>
             </article>
@@ -27,7 +27,7 @@
 
 <static-query>
   query LatestPosts {
-    allBlogPost{
+    allBlogPost (perPage: 5){
         edges{
           node{
             id
