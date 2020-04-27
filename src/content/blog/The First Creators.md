@@ -1,9 +1,9 @@
 ---
 title: היוצרים הראשונים
-date: 2019-01-26
+date: '2019-01-26'
 tags: ['יצירה', 'אמנות', 'עיצוב', 'פילוסופיה']
 slug: the-first-creators
-image: ./images/bg-image-2.jpg
+image: ./images/bg-image-4.jpg
 flip: true
 dirction: rtl
 excerpt: סיפורו של העיצוב -  מתי הוא התחיל? מה זה בדיוק עיצוב? ולמה זה אמור לעניין אותנו?
@@ -41,10 +41,6 @@ The only truly creative species
 ![link2](https://c1.staticflickr.com/5/4298/35952474802_9aa07f97a2_b.jpg)
 קן של סוכי צנוע
 
-![link3](https://upload.wikimedia.org/wikipedia/commons/e/e6/Scientific_classification_he.png)
-
-![link4](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Biological_classification_L_Pengo_vflip.svg/460px-Biological_classification_L_Pengo_vflip.svg.png)
-
 עוד לפני היות האדם אדם, הקוף כבר ייצר כלים. ולא רק הקוף, לוטרות משתמשות בבאבנים ככלי לפיצוח צדפות וישנו [סוג של דג](https://en.wikipedia.org/wiki/Blackspot_tuskfish) מול חופי אוסטרליה שעושה בדיוק אותו הדבר (רק בחוסר יעילות מתסכל) ובטח עוד מיני חיות אחרות עליהם לעולם לא נדע שהשתמשו בכלים. בטוח שאדם טוב בזה במיוחד, למרות שהקוף לא רע בזה בכלל. לקוף איכויות אנושיות, אך אני חושב שיותר נכון לכתוב שהאדם הרחיב את אלו של הקוף, והוא בתמורה את אלו של כל החיות שהגיעו לפניו. קוף לפני בן אדם ואחרי כולם. אך זה לא המצב, לא היה רצף כזה של, מהאל או הקוף ← לבן האדם. באותה התקופה היו משפחות (במובן הטקסונומי) ונסיבות. מה שהסתדר הסתדר ומה שלא לא. 
 
 אז קצת על משפחות - אז יש מלא סוגי חיים, הרשימה פה ממש לארלוונית לעין הביתי מזוינת עד לרמה של המחלקה, 
@@ -77,37 +73,6 @@ The only truly creative species
 המחלקות הידועות ביותר לרוב האנשים הן אלו השייכות למערכת המיתרניים: מחלקת העופות, מחלקת הזוחלים, מחלקת הדו-חיים, שלוש מחלקות הדגים ומחלקת היונקים, אליה משתייך האדם.
 
 למערכת המיתרניים משתייכים העופות, הזוחלים, הדגים, הדו-חיים והיונקים - ובכללם האדם. רובם המוחלט של המיתרניים הם בעלי חוליות (חולייתנים). 
-
-- Life on Earth - **1.**Eubacteria - True Bacteria **2.**Archaea - Single-cell microorganism **3.**Eukaryotes - Organisms with nucleated cells
-    - Eukaryotes - **This is where animals, fungi and plants diverged from** (among other). **Light sensibility enabled**
-        - Animals - Metazoa - This is the base of all animals. **Light sensors enabled**
-            - Bilateria - Triploblasts or bilaterally symmetrical animals. **Simply put it, creatures with a mouth, a tummy (or not) and an asshole - Eating enabled - simple structures**
-                - Deuterostomia - Includes spiny-skinned animals (Sea urchins, cucumbers & starfish), worms, vertebrates - **Movement enabled**
-                    - Chordata - Includes vertebrates - **complex structures**
-                        - Craniata - Fish with a skulls - **Now with with well-defined heads**
-                            - Vertebrata - Fish with backbones
-                                - Gnathostomata - Fish with jaws
-                                    - Sarcopterygii - The lobe-finned fishes & terrestrial vertebrates
-                                        - Terrestrial Vertebrates - Stegocephalians: Tetrapods and other digit-bearing vertebrates
-                                            - Amniota - Mammals, reptiles (turtles, lizards, crocodiles, birds) and their extinct relatives
-                                                - Synapsida - Mammals and their extinct relatives
-                                                    - Therapsida - Mammals and extinct relatives
-                                                        - Mammalia - Mammals
-                                                            - Eutheria - Placental Mammals
-                                                                - Primates - Lemurs, tarsiers, monkeys, apes, and humans
-                                                                    - Catarrhini - Humans, great apes, gibbons, Old World monkeys
-                                                                        - Hominidae -  Humans, great apes, and their extinct relatives
-                                                                            - Home - Humans
-
-                                                                                *[Homo sapiens](http://tolweb.org/Homo_sapiens/16421)* (modern humans)
-
-                                                                                *Homo erectus*
-
-                                                                                *Homo ergaster* 
-
-                                                                                *Homo rudolfensis* 
-
-                                                                                *Homo habilis* 
 
 לשבט בונובו סמויים יש סט כישורים ייחודי הקשור לחוף הים, כזה שאין לו ערך ביער וכישור זה אינו מאפיין של הבונובו עצמו אלא של הקבוצה. אם נעביר פרט מלהקה אחת לאחרת, הפרט יכול ללמוד את הכישור החדש או ללמד כישורים חדשים ללהקה (בהנחה ולכישור זה יש ערך).
 

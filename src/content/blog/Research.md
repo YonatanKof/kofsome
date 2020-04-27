@@ -1,9 +1,9 @@
 ---
 title: Research
-date: 2020-04-11
+date: '2020-04-11'
 tags: ['Kof', 'Love', 'Research']
 slug: research-me-that
-image: ./images/bg-image.jpg
+image: ./images/bg-image-3.jpg
 flip: false
 dirction: ltr
 excerpt: Research is the root of good process - Do it right and you might do everything right
