@@ -1,64 +1,50 @@
 * {
-    margin: 0;
-    // margin-bottom: 0.25rem;
-    padding: 0;
+    box-sizing: border-box;
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
 }
+
+// body {
+//     background-color: var(--bg-color);
+//     color: var(--body-color);
+//     transition: color 0.6s, background-color 0.6s;
+//     margin: 0;
+//     padding: 0;
+//     line-height: 1.5;
+//     *:active {
+//         border: none !important;
+//     }
+//     *:focus {
+//         outline: none !important;
+//     }
+// }
 body {
     background-color: floralwhite;
+    margin: 0;
+    padding: 0;
 }
-img{
+img {
     max-width: 100%;
     height: auto;
 }
 
-.lang-heb{
+.lang-heb {
     font-family: Allotrope;
 }
 
-.list__no-style{
-    ul{
+.list__no-style {
+    ul {
         list-style: none;
     }
-    li{
+    li {
         display: inline;
         padding-inline-end: 0.5rem;
-      }
-      
+    }
 }
 hr {
     margin: 1rem 0;
     border: 0;
     height: 0.0625rem;
     background-color: #1a1a1a;
-}
-
-table{
-    text-align: left;
-    border-collapse: collapse;
-    background-color: aliceblue;
-    padding: 1rem;
-    border-radius: .25rem;
-    margin-bottom: 1rem;
-    overflow: hidden;
-    // width: 100%;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05), 
-                0 4px 8px rgba(0,0,0,0.05), 
-                0 8px 16px rgba(0,0,0,0.05),
-                0 16px 32px rgba(0,0,0,0.05);
-}
-th, td {
-    padding: 1rem;
-}
-tr:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.025);
-} 
-td:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.025);
-} 
-th:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.025);
-} 
-thead{
-    background-color:  antiquewhite;
 }
 
