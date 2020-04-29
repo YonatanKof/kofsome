@@ -13,7 +13,6 @@
                     v-if="edge.node.image"
                     :src="edge.node.image"
                     :alt="edge.node.image_caption"
-                  
                     />
                   <div class="title">
                     <h3>{{edge.node.title}}</h3>
