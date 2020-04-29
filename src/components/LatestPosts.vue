@@ -9,7 +9,12 @@
                 :dir="`${edge.node.dirction}`"
             >
               <g-link class="main-click" :to="`/posts/${edge.node.slug}`">
-                  <g-image :src="`~${edge.node.image.src}`"/>
+                  <g-image 
+                    v-if="edge.node.image"
+                    :src="edge.node.image"
+                    :alt="edge.node.image_caption"
+                  
+                    />
                   <div class="title">
                     <h3>{{edge.node.title}}</h3>
                     <p><strong>{{edge.node.excerpt}}</strong></p>
@@ -33,6 +38,7 @@
             id
             excerpt
             image (width: 760, height: 320, quality: 90)
+            image_caption
             title
             date (format:"MMM DD, YYYY")
             tags
@@ -67,3 +73,4 @@ article:hover{
   padding: 8px 24px 24px;
 }
 </style>
+
