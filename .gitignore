@@ -2,6 +2,7 @@
 .cache
 .DS_Store
 src/.temp
+src/assets/styles.css.map
 node_modules
 dist
 styles.css.map
