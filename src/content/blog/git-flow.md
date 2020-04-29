@@ -4,6 +4,7 @@ date: '2020-04-27'
 tags: ['Dev', 'git-flow', 'Git']
 slug: git-flow
 image: ./images/bg-image-6.jpg
+image_caption: Polls on the beach
 flip: false
 dirction: ltr
 excerpt:  Git extensions to provide high-level repository operations for Vincent Driessen's branching model. 

@@ -4,6 +4,7 @@ date: '2019-01-26'
 tags: ['יצירה', 'אמנות', 'עיצוב', 'פילוסופיה']
 slug: the-first-creators
 image: ./images/bg-image-4.jpg
+image_caption: ---
 flip: true
 dirction: rtl
 excerpt: סיפורו של העיצוב -  מתי הוא התחיל? מה זה בדיוק עיצוב? ולמה זה אמור לעניין אותנו?

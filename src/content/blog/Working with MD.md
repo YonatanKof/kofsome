@@ -4,6 +4,7 @@ date: '2019-01-09'
 tags: ['Dev', 'Content', 'MD', 'Markdown']
 slug: working-with-markdown
 image: ./images/bg-image-5.jpg
+image_caption: ---
 flip: false
 dirction: ltr
 excerpt: Hearing a lot of Markdown but don't know where to begin? Here's a good spot

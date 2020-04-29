@@ -4,6 +4,7 @@ date: '2020-03-26'
 tags: ['Dev', 'localhost', 'SSH tunneling']
 slug: localhost-server
 image: ./images/bg-image-1.jpg
+image_caption: ---
 flip: false
 dirction: ltr
 excerpt: Research is the root of good process - Do it right and you might do everything right
@@ -15,7 +16,7 @@ Use a localhost server ****- A way to share your localhost and test on other dev
 
 I'm using this one
 
-![Run gridsome develop](./Localhost-server/Screen_Shot_2020-04-21_at_17.30.35.png "After runnig gridsome develop")
+![After runnig gridsome develop](./Localhost-server/Screen_Shot_2020-04-21_at_17.30.35.png)
 
 If port `8080` is in use
 
