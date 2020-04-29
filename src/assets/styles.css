@@ -133,13 +133,28 @@ table {
   border-spacing: 0;
 }
 
+:root {
+  --bg-color: floralwhite;
+  --bg-card: lightgoldenrodyellow;
+  --shadow: 
+        0 2px 4px rgba(0, 0, 0, 0.05), 
+        0 4px 8px rgba(0, 0, 0, 0.05), 
+        0 8px 16px rgba(0, 0, 0, 0.05),
+        0 16px 32px rgba(0, 0, 0, 0.05);
+  --shadow-hover: 
+        0 0 4px rgba(0,0,0,0.15), 
+        0 4px 8px rgba(0,0,0,0.15), 
+        0 8px 16px rgba(0,0,0,0.15),
+        0 4px 32px rgba(0,0,0,0.15);
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 body {
-  background-color: floralwhite;
+  background-color: var(--bg-color);
   margin: 0;
   padding: 0;
 }
@@ -260,16 +275,74 @@ h3, h4, h5, h6 {
   font-weight: normal;
 }
 
+:root {
+  --bg-color: floralwhite;
+  --bg-card: lightgoldenrodyellow;
+  --shadow: 
+        0 2px 4px rgba(0, 0, 0, 0.05), 
+        0 4px 8px rgba(0, 0, 0, 0.05), 
+        0 8px 16px rgba(0, 0, 0, 0.05),
+        0 16px 32px rgba(0, 0, 0, 0.05);
+  --shadow-hover: 
+        0 0 4px rgba(0,0,0,0.15), 
+        0 4px 8px rgba(0,0,0,0.15), 
+        0 8px 16px rgba(0,0,0,0.15),
+        0 4px 32px rgba(0,0,0,0.15);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.lang-heb {
+  font-family: Allotrope;
+}
+
+.list__no-style ul {
+  list-style: none;
+}
+
+.list__no-style li {
+  display: inline;
+  -webkit-padding-end: 0.5rem;
+          padding-inline-end: 0.5rem;
+}
+
+hr {
+  margin: 1rem 0;
+  border: 0;
+  height: 0.0625rem;
+  background-color: #1a1a1a;
+}
+
 table {
+  --darken-it: rgba(0, 0, 0, 0.025);
+  --darken-it-header: rgba(0, 0, 0, 0.05);
   text-align: left;
-  border-collapse: collapse;
-  background-color: aliceblue;
+  background-color: var(--bg-card);
   padding: 1rem;
   border-radius: 0.25rem;
   margin-bottom: 1rem;
   overflow: hidden;
-  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05), 0 4px 8px rgba(0, 0, 0, 0.05), 0 8px 16px rgba(0, 0, 0, 0.05), 0 16px 32px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05), 0 4px 8px rgba(0, 0, 0, 0.05), 0 8px 16px rgba(0, 0, 0, 0.05), 0 16px 32px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: var(--shadow);
+          box-shadow: var(--shadow);
+}
+
+thead {
+  background-color: var(--darken-it-header);
+  font-weight: bold;
 }
 
 th,
@@ -278,18 +351,14 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: rgba(0, 0, 0, 0.025);
+  background-color: var(--darken-it);
 }
 
 td:nth-child(even) {
-  background-color: rgba(0, 0, 0, 0.025);
+  background-color: var(--darken-it);
 }
 
 th:nth-child(even) {
-  background-color: rgba(0, 0, 0, 0.025);
-}
-
-thead {
-  background-color: antiquewhite;
+  background-color: var(--darken-it);
 }
 /*# sourceMappingURL=styles.css.map */

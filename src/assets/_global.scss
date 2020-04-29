@@ -1,11 +1,25 @@
+:root {
+    --bg-color: floralwhite;
+    --bg-card: lightgoldenrodyellow;
+    --shadow: 
+        0 2px 4px rgba(0, 0, 0, 0.05), 
+        0 4px 8px rgba(0, 0, 0, 0.05), 
+        0 8px 16px rgba(0, 0, 0, 0.05),
+        0 16px 32px rgba(0, 0, 0, 0.05);
+    --shadow-hover: 
+        0 0 4px rgba(0,0,0,0.15), 
+        0 4px 8px rgba(0,0,0,0.15), 
+        0 8px 16px rgba(0,0,0,0.15),
+        0 4px 32px rgba(0,0,0,0.15);
+}
+
 * {
     box-sizing: border-box;
-//     -webkit-font-smoothing: antialiased;
-//     -moz-osx-font-smoothing: grayscale;
+    //     -webkit-font-smoothing: antialiased;
+    //     -moz-osx-font-smoothing: grayscale;
 }
 
 // body {
-//     background-color: var(--bg-color);
 //     color: var(--body-color);
 //     transition: color 0.6s, background-color 0.6s;
 //     margin: 0;
@@ -19,7 +33,7 @@
 //     }
 // }
 body {
-    background-color: floralwhite;
+    background-color: var(--bg-color);
     margin: 0;
     padding: 0;
 }
@@ -47,4 +61,3 @@ hr {
     height: 0.0625rem;
     background-color: #1a1a1a;
 }
-

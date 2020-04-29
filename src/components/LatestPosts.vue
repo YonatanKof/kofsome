@@ -48,20 +48,14 @@
 <style>
 article {
     margin-bottom: 32px;
-    background-color: lightgoldenrodyellow;
+    background-color: var(--bg-card);
     border-radius: 4px;
     overflow: hidden;
     transition: box-shadow .35s;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05), 
-                0 4px 8px rgba(0,0,0,0.05), 
-                0 8px 16px rgba(0,0,0,0.05),
-                0 16px 32px rgba(0,0,0,0.05);
+    box-shadow: var(--shadow);
 }
 article:hover{
-    box-shadow: 0 0 4px rgba(0,0,0,0.15), 
-                0 4px 8px rgba(0,0,0,0.15), 
-                0 8px 16px rgba(0,0,0,0.15),
-                0 4px 32px rgba(0,0,0,0.15);
+    box-shadow: var(--shadow-hover);
     
 }
 .main-click{
