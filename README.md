@@ -3,8 +3,8 @@ Using `source-filesystem` and `transformer-remark` for MD files page bulding.
 ---
 > This project is in the making 
 ---
-> [Master on Netlify](https://kofsome-develop.netlify.app/)
+> [View master branch on Netlify](https://kofsome-develop.netlify.app/)
 ---
-> [Develop on Netlify](https://kofsome-develop.netlify.app/)
+> [View develop branch on Netlify](https://kofsome-develop.netlify.app/)
 ---
 ### PLUR 🌈
