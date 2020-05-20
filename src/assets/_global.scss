@@ -36,11 +36,25 @@ body {
     background-color: var(--bg-color);
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 img {
     max-width: 100%;
     height: auto;
 }
+img[src*="#thumbnail"] {
+    width:150px;
+    height:100px;
+}
+img[src*="#full-width"] { 
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
 
 .lang-heb {
     font-family: Allotrope;

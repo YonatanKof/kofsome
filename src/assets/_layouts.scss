@@ -1,14 +1,12 @@
 $page-width-sm: 400px;
-$page-width-md: 760px;
+$page-width-md: 832px;
 
 .layout {
     max-width: $page-width-md;
     margin: 0 auto;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 0 2rem;
     @media (max-width: $page-width-sm) {
-        padding-left: 1rem;
-        padding-right: 1rem;        
+        padding: 0 1rem;
     }
 }
 .header{
@@ -17,10 +15,8 @@ $page-width-md: 760px;
     justify-content: space-between;
     max-width: $page-width-md;
     margin: 1.5rem auto;
-    padding-left: 2rem;
-    padding-right: 2rem;        
+    padding: 0 2rem;       
     @media (max-width: $page-width-sm) {
-        padding-left: 1rem;
-        padding-right: 1rem;        
+        padding: 0 1rem;       
     }
 }

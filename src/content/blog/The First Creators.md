@@ -36,11 +36,13 @@ The only truly creative species
 
 מתי יפה הפך להיות גדול, מוצלח או עדיף על תכונות אחרות.
 
-![link1](https://www.thisiscolossal.com/wp-content/uploads/2012/09/mystery-5.jpg)
+![link1](https://www.thisiscolossal.com/wp-content/uploads/2012/09/mystery-5.jpg#thumbnail "Whit #thumbnail: a kof test")
 *קן חיזור של הדג הנפוחיתי*
 
-![link2](https://c1.staticflickr.com/5/4298/35952474802_9aa07f97a2_b.jpg)
+![link2](https://c1.staticflickr.com/5/4298/35952474802_9aa07f97a2_b.jpg "another kof test")
 קן של סוכי צנוע
+![An image of the Chibster](./images/chibster-1.jpg "Chibi is making a face")
+![An image of detergents as a COVID-19 Response](https://images.unsplash.com/photo-1588614853720-5782f8bd4df9?ixlib=rb-1.2.1&auto=format&fit=crop&w=3000&q=80#full-width "With #full-width: United Nations COVID-19 Responsee")
 
 עוד לפני היות האדם אדם, הקוף כבר ייצר כלים. ולא רק הקוף, לוטרות משתמשות בבאבנים ככלי לפיצוח צדפות וישנו [סוג של דג](https://en.wikipedia.org/wiki/Blackspot_tuskfish) מול חופי אוסטרליה שעושה בדיוק אותו הדבר (רק בחוסר יעילות מתסכל) ובטח עוד מיני חיות אחרות עליהם לעולם לא נדע שהשתמשו בכלים. בטוח שאדם טוב בזה במיוחד, למרות שהקוף לא רע בזה בכלל. לקוף איכויות אנושיות, אך אני חושב שיותר נכון לכתוב שהאדם הרחיב את אלו של הקוף, והוא בתמורה את אלו של כל החיות שהגיעו לפניו. קוף לפני בן אדם ואחרי כולם. אך זה לא המצב, לא היה רצף כזה של, מהאל או הקוף ← לבן האדם. באותה התקופה היו משפחות (במובן הטקסונומי) ונסיבות. מה שהסתדר הסתדר ומה שלא לא. 
 
