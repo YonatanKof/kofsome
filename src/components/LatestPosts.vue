@@ -8,20 +8,22 @@
                 :key="edge.node.id"
                 :dir="`${edge.node.dirction}`"
             >
-              <g-link class="main-click" :to="`/posts/${edge.node.slug}`">
-                  <g-image 
-                    v-if="edge.node.image"
-                    :src="edge.node.image"
-                    :alt="edge.node.image_caption"
+                <g-link class="main-click" :to="`/posts/${edge.node.slug}`">
+                    <g-image
+                        v-if="edge.node.image"
+                        :src="edge.node.image"
+                        :alt="edge.node.image_caption"
                     />
-                  <div class="title">
-                    <h3>{{edge.node.title}}</h3>
-                    <p><strong>{{edge.node.excerpt}}</strong></p>
-                    <p>{{edge.node.date}}</p>
-                    <ul class="list__no-style">
-                        <li v-for="tag in edge.node.tags" :key="tag.id">{{tag}}</li>
-                    </ul>
-                  </div>
+                    <div class="title">
+                        <h3>{{edge.node.title}}</h3>
+                        <p>
+                            <strong>{{edge.node.excerpt}}</strong>
+                        </p>
+                        <p>{{edge.node.date}}</p>
+                        <ul class="list__no-style">
+                            <li v-for="tag in edge.node.tags" :key="tag.id">{{tag}}</li>
+                        </ul>
+                    </div>
                 </g-link>
             </article>
         </div>
@@ -50,26 +52,29 @@
     } 
 </static-query>
 
-<style>
+<style scoped>
+img {
+    width: 100%;
+}
 article {
     margin-bottom: 32px;
     background-color: var(--bg-card);
     border-radius: 4px;
     overflow: hidden;
-    transition: box-shadow .35s;
+    transition: box-shadow 0.35s;
     box-shadow: var(--shadow);
 }
-article:hover{
+article:hover {
     box-shadow: var(--shadow-hover);
-    
 }
-.main-click{
-  color: #1a1a1a;
-  display: inline-block;
-  text-decoration: none;
+.main-click {
+    width: 100%;
+    color: #1a1a1a;
+    display: inline-block;
+    text-decoration: none;
 }
 .title {
-  padding: 8px 24px 24px;
+    padding: 8px 24px 24px;
 }
 </style>
 
