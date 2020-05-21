@@ -16,14 +16,21 @@ Use a localhost server ****- A way to share your localhost and test on other dev
 
 I'm using this one
 
-![After runnig gridsome develop](./Localhost-server/Screen_Shot_2020-04-21_at_17.30.35.png)
+If port `8080` is in use -> Then  run  `./ngrok http 8080`
 
-If port `8080` is in use
+<div class="full-width-cont">
+
+<div class="--split-3">
+
+![After runnig gridsome develop](./Localhost-server/Screen_Shot_2020-04-21_at_17.30.35.png)
 
 ![Run ngrok command](./Localhost-server/Screen_Shot_2020-04-21_at_17.32.03.png "Run ngrok command")
 
-Then  run  `./ngrok http 8080`
-
 ![See ngrok link](./Localhost-server/Screen_Shot_2020-04-21_at_17.29.27.png "After runnig ngrok command")
+
+</div>
+
+</div>
+
 
 Use Forwarding https link  and share

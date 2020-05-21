@@ -136,6 +136,11 @@ table {
 :root {
   --bg-color: floralwhite;
   --bg-card: lightgoldenrodyellow;
+  --shadow-soft: 
+        0 2px 4px rgba(0, 0, 0, 0.025), 
+        0 4px 8px rgba(0, 0, 0, 0.025), 
+        0 8px 16px rgba(0, 0, 0, 0.025),
+        0 16px 32px rgba(0, 0, 0, 0.025);
   --shadow: 
         0 2px 4px rgba(0, 0, 0, 0.05), 
         0 4px 8px rgba(0, 0, 0, 0.05), 
@@ -160,25 +165,6 @@ body {
   overflow-x: hidden;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-img[src*="#thumbnail"] {
-  width: 150px;
-  height: 100px;
-}
-
-img[src*="#full-width"] {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-}
-
 .lang-heb {
   font-family: Allotrope;
 }
@@ -200,8 +186,14 @@ hr {
   background-color: #1a1a1a;
 }
 
+.post--img {
+  border-radius: 0.5rem;
+  -webkit-box-shadow: var(--shadow-soft);
+          box-shadow: var(--shadow-soft);
+}
+
 .layout {
-  max-width: 832px;
+  max-width: 768px;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -222,7 +214,7 @@ hr {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 832px;
+  max-width: 768px;
   margin: 1.5rem auto;
   padding: 0 2rem;
 }
@@ -231,6 +223,52 @@ hr {
   .header {
     padding: 0 1rem;
   }
+}
+
+.full-width-cont {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.--split-2 {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1rem;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding: 1rem 0;
+}
+
+.--split-3 {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1rem;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  padding: .5rem 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img[src*="#thumbnail"] {
+  width: 150px;
+  height: 100px;
+}
+
+img[src*="#full-width"] {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
 @font-face {
@@ -295,8 +333,8 @@ table {
   border-radius: 0.25rem;
   margin-bottom: 1rem;
   overflow: hidden;
-  -webkit-box-shadow: var(--shadow);
-          box-shadow: var(--shadow);
+  -webkit-box-shadow: var(--shadow-soft);
+          box-shadow: var(--shadow-soft);
 }
 
 thead {

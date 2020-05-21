@@ -5,6 +5,17 @@
         <ul class="list__no-style">
             <li v-for="tag in $page.blogPost.tags" :key="tag.id">{{tag}}</li>
         </ul>
-        <div v-html="$page.blogPost.content" />
+        <div class="post--item" v-html="$page.blogPost.content" />
     </section>
 </template>
+
+
+<style>
+
+/* this one will work on images in first level - for deeper levels use '.post--img' class */
+.post--item > img {
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow-soft);
+}
+
+</style>

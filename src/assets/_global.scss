@@ -1,6 +1,11 @@
 :root {
     --bg-color: floralwhite;
     --bg-card: lightgoldenrodyellow;
+    --shadow-soft: 
+        0 2px 4px rgba(0, 0, 0, 0.025), 
+        0 4px 8px rgba(0, 0, 0, 0.025), 
+        0 8px 16px rgba(0, 0, 0, 0.025),
+        0 16px 32px rgba(0, 0, 0, 0.025);
     --shadow: 
         0 2px 4px rgba(0, 0, 0, 0.05), 
         0 4px 8px rgba(0, 0, 0, 0.05), 
@@ -19,42 +24,12 @@
     //     -moz-osx-font-smoothing: grayscale;
 }
 
-// body {
-//     color: var(--body-color);
-//     transition: color 0.6s, background-color 0.6s;
-//     margin: 0;
-//     padding: 0;
-//     line-height: 1.5;
-//     *:active {
-//         border: none !important;
-//     }
-//     *:focus {
-//         outline: none !important;
-//     }
-// }
 body {
     background-color: var(--bg-color);
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
-img {
-    max-width: 100%;
-    height: auto;
-}
-img[src*="#thumbnail"] {
-    width:150px;
-    height:100px;
-}
-img[src*="#full-width"] { 
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-}
-
 
 .lang-heb {
     font-family: Allotrope;
@@ -74,4 +49,8 @@ hr {
     border: 0;
     height: 0.0625rem;
     background-color: #1a1a1a;
+}
+.post--img {
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow-soft);
 }
