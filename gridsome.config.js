@@ -15,5 +15,13 @@ module.exports = {
         route: '/posts/:slug'
       }
     }
-  ]
+  ],
+  transformers: {
+    remark: {
+      plugins: [
+        'remark-unwrap-images',
+        'remark-attr'
+      ]
+    }
+  }
 }
